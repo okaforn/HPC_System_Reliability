@@ -10,4 +10,4 @@ The 'find_lost_communication' function checks a jobtrace file for ping failures:
     iii. the timestamp present on the 'lost communication with' line (timestamp)
     iv. the node lost communication with (lost_communication_with)
 
-4. Keep only rows where 3(iv)is unique for each jobid
+4. Keep only rows where 3(iv)is unique for each jobid and save the result as csv file
