@@ -13,6 +13,6 @@ The 'find_lost_communication' function checks a jobtrace file for ping failures:
 4. Keep only rows where 3(iv)is unique for each jobid and save the result as csv file
 
 Next, the ping_failure_plots.ipynb notebook loads the resulting csv files and generates multiple plots including:
-i. The elapsed time from the last ping failure reported by a node running a job untill the end of the job life
-ii. Number of Jobs with Ping Failures per Week
-iii. Jobs with ping failures < 5 mins before the job endtime ( per Week)
+    i. The elapsed time from the last ping failure reported by a node running a job untill the end of the job life
+    ii. Number of Jobs with Ping Failures per Week
+    iii. Jobs with ping failures < 5 mins before the job endtime ( per Week)
